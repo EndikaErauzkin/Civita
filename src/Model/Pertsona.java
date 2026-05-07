@@ -1,12 +1,12 @@
 package Model;
 
-public class Pertsona {
-private String NAN;
-private String izena;
-private String rol;
-private String email;
-private String telefonoa;
-private String pasahitza;
+abstract class Pertsona {
+protected String NAN;
+protected String izena;
+protected String rol;
+protected String email;
+protected String telefonoa;
+protected String pasahitza;
 
 public Pertsona(String nan, String izena, String rol, String email, String telefonoa, String pasahitza) {
 	NAN = nan;
