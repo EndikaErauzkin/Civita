@@ -52,8 +52,7 @@ public void setTelefonoa(String telefonoa) {
 public void setPasahitza(String pasahitza) {
 	this.pasahitza = pasahitza;
 }
-@Override
-public String toString() {
+public String DatuakAtera() {
 	return "Pertsona [NAN=" + NAN + ", izena=" + izena + ", rol=" + rol + ", email=" + email + ", telefonoa="
 			+ telefonoa + ", pasahitza=" + pasahitza + "]";
 }
